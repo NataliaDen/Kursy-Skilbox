@@ -1,0 +1,165 @@
+
+.card-info_p {
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 18px;
+}
+
+.about-descripshion {
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  margin-bottom: 24px;
+}
+
+.about__title {
+ font-weight: 700;
+ max-width: 400px;
+ margin-bottom: 17px;
+}
+
+
+.about-content {
+  display: block;
+  margin-bottom: 77px;
+  background-image: url(../img/Vectary\ texture.png);
+  background-repeat: no-repeat;
+  background-position: 0px 21px;
+}
+
+.about-content__text {
+  display: block;
+  padding-left: 190px; 
+}
+
+.icon1 {
+  background-image: url(../img/eye-circle.png);
+}
+
+
+.icon2 {
+  background-image: url(../img/fingers.png);
+}
+
+.icon3 {
+  background-image: url(../img/eye-circle2.png);
+}
+
+.about-item {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.about-item__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #666666;
+  font-weight: 400;
+  padding-left: 110px;
+}
+
+@media (max-width: 990px) {
+  .about-item {
+    /*display: block;*/
+    background-position: top left ;
+    min-height: 163px;
+  }
+
+  .about-item__text {
+    padding-left: 0px;
+    padding-top: 100px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .about-item {
+    min-height: 190px;
+  }
+
+  .about-content {
+    background-size: 31%;
+    margin-bottom: 50px;
+  }
+
+  .about-content__text {
+    padding-left: 240px;
+  }
+
+  .about-item__text {
+    padding-top: 75px;
+  }
+}
+
+@media (max-width: 530px) {
+  .about-item {
+    background-position: left ;
+  }
+
+  .about-item__text {
+    padding-top: 0px;
+    padding-left: 110px;
+  }
+}
+
+@media (max-width: 530px) {
+  .about-content {
+    background-image:none;
+  }
+
+  .about-content__text {
+    padding-left: 0px;
+  }
+
+/*.about-item__text {
+    padding-left: 0px;
+  }*/
+
+  .about-item__text {
+    padding-left: 110px;
+  }
+
+  .about-item {
+    min-height: 90px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-content {
+    margin-bottom: 25px;
+  }
+
+  .about__title, h2 {
+    max-width: 250px;
+    margin-bottom: 2px;
+   }
+
+ /* .about-content__text {
+    padding-left: 0px;
+  }*/
+
+  .about-descripshion {
+    margin-bottom: 18px;
+  }
+
+/*.about-item__text {
+    padding-left: 110px;
+  }
+
+  .about-item {
+    min-height: 90px;
+    margin-bottom: 20px;
+  }*/
+
+  /*.about-item:not(:last-child){
+    margin-bottom: 20px;
+  }*/
+
+}
+
